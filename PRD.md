@@ -39,14 +39,24 @@ Based on primary research conducted with **20+ campus students**:
 * **FR-3: Smart Match Notifications (P0):** Automated alerts notifying owners immediately when a newly posted "Found" item matches their lost criteria.
 * **FR-4: Secure Owner-Finder Hand Assessing (P0):** In-app communication or verification check to ensure safe property return.
 
-### 6. User Flow 
+### 6. User's Story
+* **FR-1: Students who lost an item:**
+  * As a student who lost an item, I want to report it on the platform so that others can help me find it.
+  * As a student, I want to describe my lost iems and where I last saw it so that people can identify it.
+  * As a student, I want to search through found items so that i can check whether someone has recovered my belongings.
+* **FR-2: Student who found an item:**
+  * As a student who found an item, I want to report it on the platform so that its owner can find it.
+  * As a student, I want to upload a picture of a found item so that its owner can recognize it.
+  * As a student, I want to specify where I found an item so that its owner knows where to look for it.
+
+### 7. User Flow 
 1. **Lost Flow:** '[Open App] → [Report Lost Item] → [Add Details & Location] → [Recieve Match Alert] → [Verify Ownership & Recover]'
 2. **Found Flow:** '[Open App] → [Report Found Item] → [Upload Photo & Drop-off Spot] → [Connect with Verified Owner]'
 
-### 7. Out of Scope & Future Roadmap
+### 8. Out of Scope & Future Roadmap
 * **Out of Scope:** GPS tracker hardware integrations, cash reqard escrow systems, and off-campus city tracking.
 * **Roadmap:** AI image recognition for automatic categorization from uploaded photos
 
-### 8. Risks & Mitigations
+### 9. Risks & Mitigations
 * **Risk:** False ownership claims on high-value items (phones, gadgets).
 * **Mitigation:** Require finders to withhold one unique identifying etail (e.g., phone lock screen wallpaper or contents inside a wallet) that the claimant must correctly verify before contact details are revealed.
