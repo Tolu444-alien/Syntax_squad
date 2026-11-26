@@ -39,7 +39,18 @@ Based on primary research conducted with **20+ campus students**:
 * **FR-3: Smart Match Notifications (P0):** Automated alerts notifying owners immediately when a newly posted "Found" item matches their lost criteria.
 * **FR-4: Secure Owner-Finder Hand Assessing (P0):** In-app communication or verification check to ensure safe property return.
 
-### 6. User's Story
+### 6. Non Functional Requirements
+* **Usability:**
+  * The platform should have a simple easy-to-understand interface
+  * Users should be able to report an item without unnecesary steps.
+* **Performance:**
+  * The system should load pages and search results within a reasonable time.
+  * The system should process report submissions without unnecessary delays.
+* **Security:**
+  * User passwords should be securely stored.
+  * The system should protect users' personal information.
+
+### 7. User's Story
 * **FR-1: Students who lost an item:**
   * As a student who lost an item, I want to report it on the platform so that others can help me find it.
   * As a student, I want to describe my lost iems and where I last saw it so that people can identify it.
@@ -49,14 +60,38 @@ Based on primary research conducted with **20+ campus students**:
   * As a student, I want to upload a picture of a found item so that its owner can recognize it.
   * As a student, I want to specify where I found an item so that its owner knows where to look for it.
 
-### 7. User Flow 
+### 8. Acceptance Criteria
+* **Feature 1:User registration and Login**
+  * A user can create an account using the required information
+  * A user can log in using valid credentals
+* **Feature 2:Reporting a lost item**
+  * A user can submit a lost item report
+  * The system displays a success message after submission
+* **Feature 3: Administrator Management**
+  * An administrator can view submitted reports and manage status of the reports
+  * An administrator can remove inappropriate reports
+
+### 9. Assumptions and Open Questions
+* **Assumptions:**
+  * Students and staff have access to smartphones or computers and the internet
+  * Users are willing to report lost and found items when provided with an easy-to-use platform.
+  * Users will provide accurate information when reporting items.
+  * An administration or authorized staff member will be available to oversee the platform.
+
+* **Open Questions:**
+  1. Who will be responsible for managing the platform?
+  2. Should users be required to register using their university email addresses?
+  3. Where will found items be physically kept until their owners retrieve them?
+  4. Should users be allowed to report items anonymously?
+
+### 10. User Flow 
 1. **Lost Flow:** '[Open App] → [Report Lost Item] → [Add Details & Location] → [Recieve Match Alert] → [Verify Ownership & Recover]'
 2. **Found Flow:** '[Open App] → [Report Found Item] → [Upload Photo & Drop-off Spot] → [Connect with Verified Owner]'
 
-### 8. Out of Scope & Future Roadmap
+### 11. Out of Scope & Future Roadmap
 * **Out of Scope:** GPS tracker hardware integrations, cash reqard escrow systems, and off-campus city tracking.
 * **Roadmap:** AI image recognition for automatic categorization from uploaded photos
 
-### 9. Risks & Mitigations
+### 12. Risks & Mitigations
 * **Risk:** False ownership claims on high-value items (phones, gadgets).
 * **Mitigation:** Require finders to withhold one unique identifying etail (e.g., phone lock screen wallpaper or contents inside a wallet) that the claimant must correctly verify before contact details are revealed.
